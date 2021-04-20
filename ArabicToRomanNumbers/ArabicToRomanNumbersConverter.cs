@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ArabicToRomanNumbersTests
+namespace ArabicToRomanNumbers
 {
-    internal class Converter
+    public class ArabicToRomanNumbersConverter
     {
         public static string Convert(int arabicNumber)
         {

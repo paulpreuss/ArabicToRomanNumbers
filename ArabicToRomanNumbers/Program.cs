@@ -2,11 +2,16 @@
 
 namespace ArabicToRomanNumbers
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            while (true)
+            {
+                Console.WriteLine("Which number do you want to convert?");
+                int number = Int32.Parse(Console.ReadLine());
+                Console.WriteLine(ArabicToRomanNumbersConverter.Convert(number));
+            }
         }
     }
 }
